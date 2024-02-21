@@ -1,9 +1,12 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name='P-DOR',
     version='0.1.0',
-    packages=find_packages(),
+    description='a Pipeline to Disentangle Outbreaks Rapidly',
+    author='Gherard Batisti Biffignandi, Greta Bellinzona, Greta Petazzoni, Stefano Gaiarsa',
+    url='https://github.com/gretabellinzona/P-DOR',
+    packages=['P-DOR'],
     install_requires=[
         '_libgcc_mutex==0.1',
         '_openmp_mutex==4.5',
