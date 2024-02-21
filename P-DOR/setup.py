@@ -7,8 +7,7 @@ setup(
     author='Gherard Batisti Biffignandi, Greta Bellinzona, Greta Petazzoni, Stefano Gaiarsa',
     url='https://github.com/gretabellinzona/P-DOR',
     packages=['P-DOR'],
-    install_requires=[
-        '_libgcc_mutex==0.1',
+    install_requires=['_libgcc_mutex==0.1',
         '_openmp_mutex==4.5',
         '_r-mutex==1.0.1',
         'assembly-stats==1.0.1',
